@@ -1,0 +1,470 @@
+.top{
+    font-family: sans-serif;
+    width: 100%;
+    height: 50px;
+position: sticky;
+top: 0;
+display: flex;
+align-items: center;
+background:  white;
+z-index: 999;
+}
+.topRight, .topLeft{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px ;
+    color: #444;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lora',serif;
+   
+}
+ .topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    font-weight:lighter;
+ }
+
+.topImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+ .topCenter{
+    flex: 6;
+ }
+
+ .topSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+ }
+ 
+ .header{
+    margin-top: 60px;
+
+ }
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color:#444;
+}
+
+
+.headerTitlesSm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.headerTitlesLg{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    font-style: italic; 
+}
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+
+}
+
+.home{
+    display: flex;
+}
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.sideBar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sideBarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sideBarTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+font-family: 'Varela Round',sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+}
+ .sideBarItem >img{
+    margin-top: 15px;
+
+ }
+ .sideBarItem > p{
+    padding: 30px;
+ }
+.sideBarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sideBarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.SocialIcon{
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SideBarIcon{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+font-family: 'Varela Round',sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+}
+
+
+.post{
+    width: 285px;
+    margin: 0px 25px 40px 25px;
+}
+
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius:7px ;
+
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCat{
+    font-family: 'Varela Round',sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postTitle{
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: 'Lora',serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+.desc{
+    font-family: 'Varela Round',sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+}
+.single{
+    display: flex;
+}
+
+.blog{
+    flex: 9;
+}
+.blogWraper{
+padding: 20px;
+padding-right: 0;
+}
+.blogImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.blogTitle{
+    text-align: center;
+    margin: 10px;
+
+    font-family: 'Lora', serif;
+    font-size: 28px;
+
+
+}
+.iconDiv{
+    float: right;
+    font-size: 16px;
+
+}
+.blogIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.blogIcon:first-child{
+    color: teal;
+}
+.blogIcon:first-child{
+    color: tomato;
+}
+.blogInfo{
+ margin-bottom:20px ;
+ display: flex;
+ justify-content: space-between;
+ font-size: 16px;
+ color: #be9656;
+ font-family: 'Varela Round', serif;
+
+
+}
+.blogDes{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.blogDes::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600 ;
+}
+
+.write{
+    padding-top: 50px;
+}
+ .writeImage{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius:10px ;
+    object-fit: cover;
+ }
+
+
+.writeForm{
+    position: relative;
+
+}
+.formGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.formIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+border: 1px solid;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+color: #848282;
+cursor: pointer;
+}
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeInput:focus{
+    outline: none;
+}
+.text{
+    font-size: 20px ;
+    height: 100vh;
+}
+.SubmitBtn{
+    position:absolute ;
+    top: 20px;
+right: 50px;
+color: white;
+background:teal;
+padding: 10px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-size: 10px; 
+
+}
+.setting{
+    display: flex;
+}
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingTitle{
+    display: flex;
+align-items:center;
+justify-content: space-between;
+
+}
+.updateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+.dltTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.SettingForm{
+    display: flex;
+    flex-direction: column;
+}
+.profileSetting{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.profileSetting>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.profileIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50% ;
+    background-color:lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+ .SettingForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .SettingForm >input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+ }
+
+ .submitSetting{
+    width: 150px;
+    align-self: center;
+border-radius: 10px;
+color: white;
+background: teal;
+margin-top: 20px;
+cursor: pointer;
+ }
+
+ .login{
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:url("https://picsum.photos/536/354");
+background-size: cover;
+ }
+
+ .loginTitle{
+    font-size: 50px;
+
+ }
+ .loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+ .loginForm > label{
+    margin: 10px 0;
+
+ }
+.loginForm > input{
+    padding: 10px;
+    border: none;
+    background-color: white;
+ }
+ .loginbtn{
+    margin-top: 20px;
+    background: lightcoral;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+ }
+ .Signbtn{
+    position: absolute;
+    top: 60px;
+right: 20px;
+background-color: teal;
+cursor: pointer;
+border: none;
+padding: 10px;
+color: white;
+border-radius: 10px;
+
+ }
+ .link{
+    text-decoration: none;
+    color: inherit;
+ }
